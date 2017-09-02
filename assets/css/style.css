@@ -321,15 +321,9 @@ h1.logo {
 #header {
   background-image: url(../images/doricduo/Doric-Duo-3.jpg);
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
-
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-
-  /* Preserve aspect ratio */
-  min-width: 100%;
-  min-height: 100%;
-
+  background-size: cover;
+  -webkit-background-size: cover; /* safari may need this */
+  background-attachment: scroll;
 
 }
 #services {
