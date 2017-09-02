@@ -226,7 +226,7 @@ h1.logo {
 
 #header .slogan{
   font-size: 6em;
-  margin-bottom: 15px;
+  margin-top: 20px;
   line-height: 1em;
   font-family: 'Pinyon Script', cursive;
   color: white;
@@ -234,9 +234,9 @@ h1.logo {
 
 #header .secondary-slogan{
   font-size: 1.6em;
-  color: rgba(255,255,255,.5);
-  line-height: 1em;
+  color: rgba(255,255,255,255);
   font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
 }
 
 #header > .bottom {
