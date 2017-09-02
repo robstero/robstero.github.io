@@ -58,7 +58,10 @@ p {
     font-family: 'Open Sans', sans-serif;
   }
 
-img {max-width: 100%;}
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
 
 a {
   text-decoration: none;
@@ -82,7 +85,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6{   
   margin: 0 0 15px 0; 
   color: #3A4F52;
-  font-family: 'Raleway';
+  font-family: 'Pinyon Script', cursive;
 }
 
 .btn{border-radius: 0;}
@@ -111,25 +114,25 @@ h1, h2, h3, h4, h5, h6{
 }
 p.main-header {
   font-size: 27px;
-  font-family: 'Raleway';
+  font-family: 'Pinyon Script', cursive;
   font-weight: 500;
 }
 p.main-header:after {
   content: " ";   
   font-size: 27px;
-  font-family: 'Raleway';
+  font-family: 'Pinyon Script', cursive;
   font-weight: 500;
 }
 p.sub-header {
   font-size: 27px;
-  font-family: 'Raleway';
+  font-family: 'Pinyon Script', cursive;
   font-weight: 100;
   margin-left: 10px;
 }
 p.sub-header:before {
   content: " ||| ";
   font-size: 27px;
-  font-family: 'Raleway';
+  font-family: 'Pinyon Script', cursive;
   font-weight: 300;
 }
 li{
@@ -209,11 +212,11 @@ h1.logo {
 }
 
 #header .logo, #header .toggleDrawer{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Pinyon Script', cursive;
   color: white;
 }
 .logo-head{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Pinyon Script', cursive;
   font-size: 12px;
   font-weight: 300;
 }
@@ -222,12 +225,11 @@ h1.logo {
 }
 
 #header .slogan{
-  font-size: 4em;
+  font-size: 6em;
   margin-bottom: 15px;
   line-height: 1em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Pinyon Script', cursive;
   color: white;
-  font-weight: bold;
 }
 
 #header .secondary-slogan{
@@ -318,7 +320,7 @@ h1.logo {
 
 #header {
   background-image: url(../images/doricduo/Doric-Duo-3.jpg);
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
 }
 #services {
   background:white;
@@ -403,20 +405,20 @@ h1.logo {
     padding: 0 5px;
 }
 .bar:before{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Pinyon Script', cursive;
   content: "||| " ;
   font-size: 23px;
   font-weight: 100;
 }
 
 .bar:after {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Pinyon Script', cursive;
   content: "||| " ;
   font-size: 23px;
   font-weight: 100;
 }
 .service h2.service-head{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Pinyon Script', cursive;
   margin-top: 15px;
   font-weight: 100;
 }
@@ -463,10 +465,14 @@ i.aboutus-icon {
 }
 
 h4.aboutus-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Pinyon Script', cursive;
   margin-top: 23px;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 30px;
+}
+
+h2.aboutus-title {
+  font-size: 40px;
 }
 
 p.aboutus-desc {
@@ -570,7 +576,7 @@ ol.carousel-indicators {
 
 h2.footer-block {
     color: white;
-    font-family: "Raleway" , sans-serif;
+    font-family: 'Pinyon Script', cursive;
 }
 .form-control{
   border-radius: none !important;
