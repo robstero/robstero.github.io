@@ -319,7 +319,8 @@ h1.logo {
 }
 
 #header {
-  background-image: url(../images/doricduo/Jo-Black-and-White.jpg);
+  background-image: url(../images/doricduo/Doric-Duo-3.jpg);
+  background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
 }
 #services {
